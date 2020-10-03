@@ -1,0 +1,32 @@
+.recetario{
+    overflow: scroll;
+    height: 350px;
+}
+
+.favoritos
+{
+    overflow: scroll;
+    height: 350px;
+}
+.recetario::-webkit-scrollbar {
+    width: 5px;
+    background: deeppink;
+
+}
+.recetario::-webkit-scrollbar-thumb {
+
+    background: blueviolet;
+    border-radius: 10px;
+    border-right: 2px solid blueviolet;
+}
+.favoritos::-webkit-scrollbar {
+    width: 5px;
+    background: deeppink;
+
+}
+.favoritos::-webkit-scrollbar-thumb {
+
+    background: blueviolet;
+    border-radius: 10px;
+    border-right: 2px solid blueviolet;
+}

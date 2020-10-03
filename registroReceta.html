@@ -13,25 +13,47 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 <div class="container">
-        <div class="row">
-            <div class="col-2" id="fotoPerfil">
-                <img src="" alt="">
-            </div>
-            <div id="infoPersonal" class="col-10 row">
-                <!-- aqui ira la informacion personal -->
-                <div class="col">
+    <div class="row justify-content-center">
+        <div class="col m-3">
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">NOMBRE DE LA RECETA</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Tipo de comida</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Salada</option>
+                    <option>Dulce</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">INGREDIENTES</label>
+                  <ul class="list-group">
+                    <li class="list-group-item"><input class="form-control" type="text"></li>
+                    <li class="list-group-item"><input class="form-control" type="text"></li>
+                    <li class="list-group-item"><input class="form-control" type="text"></li>
+                    <li class="list-group-item"><input class="form-control" type="text"></li>
+                  </ul>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Procedimiento</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
+                <div class="form-group">
+                <input type="file">
+                </div>
 
+                <div class="form-group row justify-content-end">
+                  <a name="" id="" class="btn btn-primary" href="#" role="button">Compartir</a>
                 </div>
-            </div>
-            <div class="col-12 row">
-                <div class="col-6">
-                    <!-- mi Recetario -->
-                </div>
-                <div class="col-6">
-                    <!-- mis favoritos -->
-                </div>
-            </div>
+              </form>
+
         </div>
+    </div>
+</div>
+
+
 
     </div>
 </body>
