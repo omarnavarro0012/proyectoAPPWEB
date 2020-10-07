@@ -1,0 +1,13 @@
+body{
+        background-image: url("../img/fondo8.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        
+}
+
+label{
+    -webkit-text-stroke: 1px;        
+    -webkit-text-stroke-color:#0062FF;
+}

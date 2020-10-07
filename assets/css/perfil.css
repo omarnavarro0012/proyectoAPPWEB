@@ -1,3 +1,24 @@
+body{
+    background-image: url("../img/fondo4.jpg");
+}
+
+h5,h1{
+    -webkit-text-stroke: 1px;        
+    -webkit-text-stroke-color:#ffffff;
+    color: #000000;
+
+}
+p{
+    -webkit-text-stroke: 1px;        
+    -webkit-text-stroke-color:#ffffff;
+    color: #ffffff;
+    font-stretch: ultra-condensed;
+}
+
+#infopersonal li{
+    opacity: none;
+}
+
 .recetario{
     overflow: scroll;
     height: 350px;
@@ -9,24 +30,21 @@
     height: 350px;
 }
 .recetario::-webkit-scrollbar {
-    width: 5px;
-    background: deeppink;
-
+    height: 0;
+    background: rgba(255, 20, 145, 0);
 }
 .recetario::-webkit-scrollbar-thumb {
-
-    background: blueviolet;
     border-radius: 10px;
-    border-right: 2px solid blueviolet;
+    background: rgb(255, 255, 255);
+    border: 1px double black;
 }
 .favoritos::-webkit-scrollbar {
-    width: 5px;
-    background: deeppink;
-
+    background: rgba(255, 20, 145, 0);
+    height: 0;
 }
 .favoritos::-webkit-scrollbar-thumb {
 
-    background: blueviolet;
+    background: rgb(255, 255, 255);
     border-radius: 10px;
-    border-right: 2px solid blueviolet;
+    border: 1px double black;
 }
