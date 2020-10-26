@@ -1,3 +1,57 @@
 body {
     background-color: blueviolet;
+    background-image: url("./assets/img/fondo17.jpg");
+}
+
+#tituloEstados{
+    color: deeppink; 
+    font-size: 35px; 
+    -webkit-text-stroke: 2px;"
+}
+
+#TituloComeMex{
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color:white;
+    font-size: 2.25cm;
+}
+
+.carrusel{
+    height: 570px;
+    
+}
+
+.carrusel .tarjeta{
+    background-color: inherit;
+    border: none;
+    align-items: center;
+}
+
+.estados
+{
+    overflow: scroll;
+    height: 590px;
+}
+
+.estados::-webkit-scrollbar {
+    height: 0;
+    width: 6px;
+    background: rgba(255, 20, 145, 0);
+}
+.estados::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    border: 1px double black;
+}
+
+.estado{
+    color: #00000073; 
+    font-size: 15px;
+    -webkit-text-stroke: 1px;
+}
+
+.estado:hover{
+    color: deeppink;
+    text-decoration: underline;
 }

@@ -1,5 +1,8 @@
 body{
-    background-image: url("../img/fondo4.jpg");
+    background-image: url("../img/fondo21.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 36%;
 }
 
 h5,h1{
@@ -47,4 +50,9 @@ p{
     background: rgb(255, 255, 255);
     border-radius: 10px;
     border: 1px double black;
+}
+
+#infopersonal li{
+    background-color: initial;
+
 }
