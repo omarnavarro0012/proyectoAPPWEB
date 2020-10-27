@@ -5,7 +5,13 @@ body{
     background-position-y: 36%;
 }
 
+.fotoPerfil{
+    border: #ffffff solid 5px;
+    border-radius: 10px;
+}
+
 h5,h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     -webkit-text-stroke: 1px;        
     -webkit-text-stroke-color:#ffffff;
     color: #000000;
@@ -24,16 +30,17 @@ p{
 
 .recetario{
     overflow: scroll;
-    height: 350px;
+    height: 340px;
 }
 
 .favoritos
 {
     overflow: scroll;
-    height: 350px;
+    height: 340px;
 }
 .recetario::-webkit-scrollbar {
     height: 0;
+    width: 6px;
     background: rgba(255, 20, 145, 0);
 }
 .recetario::-webkit-scrollbar-thumb {
@@ -41,15 +48,30 @@ p{
     background: rgb(255, 255, 255);
     border: 1px double black;
 }
+
+.recetario::-webkit-scrollbar-thumb:hover {
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    border: 1px double white;
+}
+
 .favoritos::-webkit-scrollbar {
     background: rgba(255, 20, 145, 0);
     height: 0;
+    width: 6px;
 }
+
 .favoritos::-webkit-scrollbar-thumb {
 
     background: rgb(255, 255, 255);
     border-radius: 10px;
     border: 1px double black;
+}
+
+.favoritos::-webkit-scrollbar-thumb:hover {
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    border: 1px double white;
 }
 
 #infopersonal li{
